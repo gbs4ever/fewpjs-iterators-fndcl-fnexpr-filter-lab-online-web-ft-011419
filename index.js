@@ -6,7 +6,7 @@ return drivers.filter( n => {
 } )
 
 }
- function fuzzyMatch(drviers ,string){
+ function fuzzyMatch(drivers ,string){
    return drivers.filter( n => {
      return n[0] === string
    } )
