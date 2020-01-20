@@ -9,7 +9,7 @@ return drivers.filter( n => {
  function fuzzyMatch(drivers ,string){
    return drivers.filter( n => {
 let answer = n[0]
-     return answer.toUpperCase()  === string.toUpperCase()
+     return answer.toLowerCase())  === string.toLowerCase()
    } )
 
  }
