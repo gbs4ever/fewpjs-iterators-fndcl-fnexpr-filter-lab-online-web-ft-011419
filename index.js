@@ -13,3 +13,6 @@ let answer = n[0]
    } )
 
  }
+function matchName (drivers, string){
+  return drivers.filter ( n=> n.name=== string )
+}
