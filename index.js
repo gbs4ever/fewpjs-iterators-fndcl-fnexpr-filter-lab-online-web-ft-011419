@@ -8,7 +8,7 @@ return drivers.filter( n => {
 }
  function fuzzyMatch(drivers ,string){
    return drivers.filter( n => {
-     return n[0] === string
+     return n[0].toUpperCase()  === string.toUpperCase()
    } )
 
  }
