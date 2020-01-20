@@ -2,7 +2,7 @@
 function findMatching(drivers,string) {
 
 let answer = drivers.filter( n => {
-  return n.toUppercase() === string.toUppercase()
+  return n.toUpperCase() === string.toUpperCase()
 } )
 return answer
 }
